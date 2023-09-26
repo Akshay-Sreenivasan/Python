@@ -5,21 +5,18 @@
 # * 1 2 *
 # * 1 *
 # *
-a=int(input("Enter the limit"))
-for i in range (a):
-    for j in range(i):
-        if j%2==
-        print(i,end=" ")
+a=int(input("Enter the limit "))
+for i in range (1,a+1):
+    for j in range(0,i+1):
+        if j==i or j==0:
+            print("*",end=" ")
+        else:
+            print(j,end=" ")
     print(" ")
-for i in range(a,0,-1):
-    for j in range(i):
-        print("*", end=" ")    
+for i in range(a-1,0,-1):
+    for j in range(0,i+1):
+        if j==0 or i==j:
+            print("*",end=" ")
+        else:
+            print(j,end=" ")
     print()
-
-
-    #    for j in range(1,i+1):
-#         if j%2==0:
-#             print("2",end=" ")
-#         else:
-#             print("1",end=" ")
-#     print(" ")
