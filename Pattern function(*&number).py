@@ -11,10 +11,14 @@
 # _________5 4 3 2 1
 row=5
 for i in range(0,row):
-    for h in range(1,i+1):
-        if i%2==1:
-            for j in range(1,i+1):
-                print(j,end=" ")
-        else:
-            for j in range(0,i+1):
-                print("*",end=" ")
+    for p in range (0,i+1):
+        print('*',end=" ")
+    print()
+    if(i%2!=0):
+        for j in range(0,i+1):
+            print(j+1,end=" ")
+        print()
+    else:
+        for k in range(i+1,0,-1):
+            print(k,end=" ")
+        print()
