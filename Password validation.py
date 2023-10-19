@@ -1,4 +1,4 @@
-''' WAP that asks the user for a password and checks if it meets the following criteria : at least 8 characters, contains at least one uppercase letter and contains at least one digit. print "valid password if the password meets the criteria and "invalid password" if it does not.'''
+#  WAP that asks the user for a password and checks if it meets the following criteria : at least 8 characters, contains at least one uppercase letter and contains at least one digit. print "valid password if the password meets the criteria and "invalid password" if it does not.
 
 import re
 password=input('Enter the password: ')
